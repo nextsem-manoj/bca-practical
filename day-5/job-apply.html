@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form action="#">
+    
+    <div>
+        <label for="full name">Full name</label>
+        <input type="text" id="full name" name="full name" placeholder="Enter your full name">
+        <br><br>
+    </div>
+    
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+    </div>
+
+
+    <div>
+        <label for="phone no.">Phone Number</label>
+        <input type="number" id="phone no." name="phone no." placeholder="Enter your phone number">
+        <br><br>
+    </div>
+
+    
+    <div>
+        <label for="resume">Upload Resume</label>
+        <input type="file" id="resume" name="resume">
+        <br><br>
+    </div>
+
+
+
+    <div>
+    <p><b>Work Experience</b></p>
+    <input type="radio" id="fresher" name="work experience" value="fresher" required>
+    <label for="fresher">Fresher</label>
+    <br><br>
+
+    <input type="radio" id="one-two" name="work experience" value="1-2 years">
+    <label for="one-two">1-2 years</label>
+    <br><br>
+
+    <input type="radio" id="three-five" name="work experience" value="3-5 years">
+    <label for="three-five">3+ years</label>
+    <br><br>
+    </div>
+
+    
+    <div>
+        <p><strong>Technical Skills</strong></p>
+
+        <input type="checkbox" id="html" name="skill" value="html">
+        <label for="html">HTML</label>
+        <br><br>
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label>
+        <br><br>
+        <input type="checkbox" id="javascript" name="skills" value="javascript">
+        <label for="javascript">JAVASCRIPT</label>
+        <br><br>
+        <input type="checkbox" id="c++" name="skills" value="c++">
+        <label for="c++">C++</label>
+    </div>
+
+    <div>
+        <label for="coverletter">Cover Letter</label>
+        <textarea name="coverletter" id="coverletter" placeholder="Tell us why you are suitable for this job"></textarea>
+
+
+    </div>
+
+    
+    <button type="submit">Submit Application</button>
+    <button type="reset">Reset Form</button>
+    </form>
+
+</body>
+</html>
