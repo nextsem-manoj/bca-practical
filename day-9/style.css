@@ -1,0 +1,75 @@
+.btn-success{
+    background-color: green;
+    color: #ffffff;
+    border-color: #16a34a;
+}
+.btn-success:hover{
+    background-color: #158d;
+    border-color: #158d;
+    transform: translateY(-5px);
+    box-shadow: 5px 4px 7px rgba(22, 163, 74, 0.4);
+
+}
+
+.btn-danger{
+    background-color: red;
+    color: aquamarine;
+    border-color: #1da
+    ;
+}
+.btn-danger:hover{
+background-color: #158d;
+    border-color: #158d;
+    transform: translateY(-5px);
+    /* box-shadow: 5px 4px 2px rgba(13, 26, 163, 0.4) */
+    box-shadow: red;
+}
+.btn-warning{
+    background-color: #d97706;
+    color: yellow;
+    border-color: palegoldenrod;
+
+}
+
+.btn-warning:hover{
+
+    color: #d97706;
+    background-color: white;
+    transform: translateY(-5px);
+    box-shadow: 100cap;
+
+}
+
+.btn-outline{
+
+    color: paleturquoise;
+    background-color: purple;
+    border-color: #16a34a;
+
+}
+
+.btn-outline:hover{
+
+    color: darkgray;
+    background-color: black;
+    transform: translateY(-5px);
+
+}
+
+.button-group{
+
+    background-color: deepskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: content-box;
+    padding: 5%;
+    margin: 25%;
+    
+}
+
+.Card-sheet{
+    background-color: darkblue;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 25%;
+    margin: 8%;
+}
