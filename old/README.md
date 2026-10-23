@@ -19,7 +19,7 @@ hello, my name is ronak a begineer who start learning basics of HTML and CSS as 
 2. CSS
 3. GIT and GITHUB
 
-# AuThOr
+# AuthOr
 Ronak kumar
 
 
